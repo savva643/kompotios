@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3204CF0286B832E007A4BDC /* logo60.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CE4286B832E007A4BDC /* logo60.png */; };
+		F3204CF1286B832E007A4BDC /* logo (40).png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CE5286B832E007A4BDC /* logo (40).png */; };
+		F3204CF2286B832E007A4BDC /* logo76.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CE6286B832E007A4BDC /* logo76.png */; };
+		F3204CF3286B832E007A4BDC /* logo87.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CE7286B832E007A4BDC /* logo87.png */; };
+		F3204CF4286B832E007A4BDC /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CE8286B832E007A4BDC /* logo120.png */; };
+		F3204CF5286B832E007A4BDC /* logo152.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CE9286B832E007A4BDC /* logo152.png */; };
+		F3204CF6286B832E007A4BDC /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CEA286B832E007A4BDC /* logo58.png */; };
+		F3204CF7286B832E007A4BDC /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CEB286B832E007A4BDC /* logo80.png */; };
+		F3204CF8286B832E007A4BDC /* logo29.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CEC286B832E007A4BDC /* logo29.png */; };
+		F3204CF9286B832E007A4BDC /* logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CED286B832E007A4BDC /* logo180.png */; };
+		F3204CFA286B832E007A4BDC /* logo167.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CEE286B832E007A4BDC /* logo167.png */; };
+		F3204CFE286B84B3007A4BDC /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CFC286B84B2007A4BDC /* logo1024.png */; };
+		F3204CFF286B84B3007A4BDC /* logo20.png in Resources */ = {isa = PBXBuildFile; fileRef = F3204CFD286B84B2007A4BDC /* logo20.png */; };
+		F3204D03286C13AB007A4BDC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3204D02286C13AB007A4BDC /* Home.swift */; };
+		F3204D05286C13BB007A4BDC /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3204D04286C13BB007A4BDC /* News.swift */; };
+		F3204D07286C13F9007A4BDC /* Messenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3204D06286C13F9007A4BDC /* Messenger.swift */; };
+		F3204D09286C1409007A4BDC /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3204D08286C1409007A4BDC /* Profiles.swift */; };
+		F3204D0B286C5CF7007A4BDC /* Homex.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3204D0A286C5CF7007A4BDC /* Homex.storyboard */; };
+		F3204D0D286CAD58007A4BDC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3204D0C286CAD57007A4BDC /* Launch Screen.storyboard */; };
+		F3F15690286ACF9300369E78 /* KomPotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1568F286ACF9300369E78 /* KomPotApp.swift */; };
+		F3F15692286ACF9300369E78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F15691286ACF9300369E78 /* ContentView.swift */; };
+		F3F15694286ACFEB00369E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F15693286ACFEB00369E78 /* Assets.xcassets */; };
+		F3F15697286ACFEB00369E78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F15696286ACFEB00369E78 /* Preview Assets.xcassets */; };
+		F3F156A1286ACFF200369E78 /* KomPotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F156A0286ACFF200369E78 /* KomPotTests.swift */; };
+		F3F156AB286ACFF200369E78 /* KomPotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F156AA286ACFF200369E78 /* KomPotUITests.swift */; };
+		F3F156AD286ACFF200369E78 /* KomPotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F156AC286ACFF200369E78 /* KomPotUITestsLaunchTests.swift */; };
+		F3F156BA286B6F6600369E78 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F156B9286B6F6300369E78 /* google.png */; };
+		F3F156BC286B6F7F00369E78 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F156BB286B6F7E00369E78 /* logo.png */; };
+		F3F156BE286B6F9100369E78 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F156BD286B6F9100369E78 /* logo1.png */; };
+		F3F156C0286B6FA700369E78 /* vk.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F156BF286B6FA700369E78 /* vk.png */; };
+		F3F156C2286B6FB400369E78 /* yandex.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F156C1286B6FB400369E78 /* yandex.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3F1569D286ACFF200369E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F15684286ACF9100369E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F1568B286ACF9200369E78;
+			remoteInfo = KomPot;
+		};
+		F3F156A7286ACFF200369E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F15684286ACF9100369E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F1568B286ACF9200369E78;
+			remoteInfo = KomPot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3204CE4286B832E007A4BDC /* logo60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo60.png; path = ../../../../Downloads/logo60.png; sourceTree = "<group>"; };
+		F3204CE5286B832E007A4BDC /* logo (40).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo (40).png"; path = "../../../../Downloads/logo (40).png"; sourceTree = "<group>"; };
+		F3204CE6286B832E007A4BDC /* logo76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo76.png; path = ../../../../Downloads/logo76.png; sourceTree = "<group>"; };
+		F3204CE7286B832E007A4BDC /* logo87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo87.png; path = ../../../../Downloads/logo87.png; sourceTree = "<group>"; };
+		F3204CE8286B832E007A4BDC /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo120.png; path = ../../../../Downloads/logo120.png; sourceTree = "<group>"; };
+		F3204CE9286B832E007A4BDC /* logo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo152.png; path = ../../../../Downloads/logo152.png; sourceTree = "<group>"; };
+		F3204CEA286B832E007A4BDC /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo58.png; path = ../../../../Downloads/logo58.png; sourceTree = "<group>"; };
+		F3204CEB286B832E007A4BDC /* logo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo80.png; path = ../../../../Downloads/logo80.png; sourceTree = "<group>"; };
+		F3204CEC286B832E007A4BDC /* logo29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo29.png; path = ../../../../Downloads/logo29.png; sourceTree = "<group>"; };
+		F3204CED286B832E007A4BDC /* logo180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo180.png; path = ../../../../Downloads/logo180.png; sourceTree = "<group>"; };
+		F3204CEE286B832E007A4BDC /* logo167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo167.png; path = ../../../../Downloads/logo167.png; sourceTree = "<group>"; };
+		F3204CFC286B84B2007A4BDC /* logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1024.png; path = ../../../../Downloads/logo1024.png; sourceTree = "<group>"; };
+		F3204CFD286B84B2007A4BDC /* logo20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo20.png; path = ../../../../Downloads/logo20.png; sourceTree = "<group>"; };
+		F3204D02286C13AB007A4BDC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F3204D04286C13BB007A4BDC /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		F3204D06286C13F9007A4BDC /* Messenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messenger.swift; sourceTree = "<group>"; };
+		F3204D08286C1409007A4BDC /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		F3204D0A286C5CF7007A4BDC /* Homex.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homex.storyboard; sourceTree = "<group>"; };
+		F3204D0C286CAD57007A4BDC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F3F1568C286ACF9300369E78 /* KomPot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KomPot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F1568F286ACF9300369E78 /* KomPotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomPotApp.swift; sourceTree = "<group>"; };
+		F3F15691286ACF9300369E78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3F15693286ACFEB00369E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F15696286ACFEB00369E78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3F1569C286ACFF200369E78 /* KomPotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomPotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F156A0286ACFF200369E78 /* KomPotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomPotTests.swift; sourceTree = "<group>"; };
+		F3F156A6286ACFF200369E78 /* KomPotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomPotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F156AA286ACFF200369E78 /* KomPotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomPotUITests.swift; sourceTree = "<group>"; };
+		F3F156AC286ACFF200369E78 /* KomPotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomPotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3F156B9286B6F6300369E78 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google.png; path = ../../../../Downloads/google.png; sourceTree = "<group>"; };
+		F3F156BB286B6F7E00369E78 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/logo.png; sourceTree = "<group>"; };
+		F3F156BD286B6F9100369E78 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = ../../../../Downloads/logo1.png; sourceTree = "<group>"; };
+		F3F156BF286B6FA700369E78 /* vk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vk.png; path = ../../../../Downloads/vk.png; sourceTree = "<group>"; };
+		F3F156C1286B6FB400369E78 /* yandex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yandex.png; path = ../../../../Downloads/yandex.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F15689286ACF9200369E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F15699286ACFF200369E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F156A3286ACFF200369E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3204D01286C1364007A4BDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3204D02286C13AB007A4BDC /* Home.swift */,
+				F3204D04286C13BB007A4BDC /* News.swift */,
+				F3204D06286C13F9007A4BDC /* Messenger.swift */,
+				F3204D08286C1409007A4BDC /* Profiles.swift */,
+				F3204D0A286C5CF7007A4BDC /* Homex.storyboard */,
+				F3204D0C286CAD57007A4BDC /* Launch Screen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3F15683286ACF9100369E78 = {
+			isa = PBXGroup;
+			children = (
+				F3F1568E286ACF9300369E78 /* KomPot */,
+				F3F1569F286ACFF200369E78 /* KomPotTests */,
+				F3F156A9286ACFF200369E78 /* KomPotUITests */,
+				F3F1568D286ACF9300369E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F1568D286ACF9300369E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1568C286ACF9300369E78 /* KomPot.app */,
+				F3F1569C286ACFF200369E78 /* KomPotTests.xctest */,
+				F3F156A6286ACFF200369E78 /* KomPotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F1568E286ACF9300369E78 /* KomPot */ = {
+			isa = PBXGroup;
+			children = (
+				F3204D01286C1364007A4BDC /* Views */,
+				F3F1568F286ACF9300369E78 /* KomPotApp.swift */,
+				F3F15691286ACF9300369E78 /* ContentView.swift */,
+				F3F15693286ACFEB00369E78 /* Assets.xcassets */,
+				F3F15695286ACFEB00369E78 /* Preview Content */,
+			);
+			path = KomPot;
+			sourceTree = "<group>";
+		};
+		F3F15695286ACFEB00369E78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3204CFD286B84B2007A4BDC /* logo20.png */,
+				F3204CFC286B84B2007A4BDC /* logo1024.png */,
+				F3204CE5286B832E007A4BDC /* logo (40).png */,
+				F3204CEC286B832E007A4BDC /* logo29.png */,
+				F3204CEA286B832E007A4BDC /* logo58.png */,
+				F3204CE4286B832E007A4BDC /* logo60.png */,
+				F3204CE6286B832E007A4BDC /* logo76.png */,
+				F3204CEB286B832E007A4BDC /* logo80.png */,
+				F3204CE7286B832E007A4BDC /* logo87.png */,
+				F3204CE8286B832E007A4BDC /* logo120.png */,
+				F3204CE9286B832E007A4BDC /* logo152.png */,
+				F3204CEE286B832E007A4BDC /* logo167.png */,
+				F3204CED286B832E007A4BDC /* logo180.png */,
+				F3F156C1286B6FB400369E78 /* yandex.png */,
+				F3F156BF286B6FA700369E78 /* vk.png */,
+				F3F156BD286B6F9100369E78 /* logo1.png */,
+				F3F156BB286B6F7E00369E78 /* logo.png */,
+				F3F15696286ACFEB00369E78 /* Preview Assets.xcassets */,
+				F3F156B9286B6F6300369E78 /* google.png */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3F1569F286ACFF200369E78 /* KomPotTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F156A0286ACFF200369E78 /* KomPotTests.swift */,
+			);
+			path = KomPotTests;
+			sourceTree = "<group>";
+		};
+		F3F156A9286ACFF200369E78 /* KomPotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F156AA286ACFF200369E78 /* KomPotUITests.swift */,
+				F3F156AC286ACFF200369E78 /* KomPotUITestsLaunchTests.swift */,
+			);
+			path = KomPotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F1568B286ACF9200369E78 /* KomPot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F156B0286ACFF200369E78 /* Build configuration list for PBXNativeTarget "KomPot" */;
+			buildPhases = (
+				F3F15688286ACF9200369E78 /* Sources */,
+				F3F15689286ACF9200369E78 /* Frameworks */,
+				F3F1568A286ACF9200369E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KomPot;
+			productName = KomPot;
+			productReference = F3F1568C286ACF9300369E78 /* KomPot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3F1569B286ACFF200369E78 /* KomPotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F156B3286ACFF200369E78 /* Build configuration list for PBXNativeTarget "KomPotTests" */;
+			buildPhases = (
+				F3F15698286ACFF200369E78 /* Sources */,
+				F3F15699286ACFF200369E78 /* Frameworks */,
+				F3F1569A286ACFF200369E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F1569E286ACFF200369E78 /* PBXTargetDependency */,
+			);
+			name = KomPotTests;
+			productName = KomPotTests;
+			productReference = F3F1569C286ACFF200369E78 /* KomPotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3F156A5286ACFF200369E78 /* KomPotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F156B6286ACFF200369E78 /* Build configuration list for PBXNativeTarget "KomPotUITests" */;
+			buildPhases = (
+				F3F156A2286ACFF200369E78 /* Sources */,
+				F3F156A3286ACFF200369E78 /* Frameworks */,
+				F3F156A4286ACFF200369E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F156A8286ACFF200369E78 /* PBXTargetDependency */,
+			);
+			name = KomPotUITests;
+			productName = KomPotUITests;
+			productReference = F3F156A6286ACFF200369E78 /* KomPotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F15684286ACF9100369E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F3F1568B286ACF9200369E78 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F3F1569B286ACFF200369E78 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F3F1568B286ACF9200369E78;
+					};
+					F3F156A5286ACFF200369E78 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F3F1568B286ACF9200369E78;
+					};
+				};
+			};
+			buildConfigurationList = F3F15687286ACF9100369E78 /* Build configuration list for PBXProject "KomPot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F15683286ACF9100369E78;
+			productRefGroup = F3F1568D286ACF9300369E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F1568B286ACF9200369E78 /* KomPot */,
+				F3F1569B286ACFF200369E78 /* KomPotTests */,
+				F3F156A5286ACFF200369E78 /* KomPotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F1568A286ACF9200369E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3204D0B286C5CF7007A4BDC /* Homex.storyboard in Resources */,
+				F3204CF9286B832E007A4BDC /* logo180.png in Resources */,
+				F3F156C0286B6FA700369E78 /* vk.png in Resources */,
+				F3204CF1286B832E007A4BDC /* logo (40).png in Resources */,
+				F3204CF4286B832E007A4BDC /* logo120.png in Resources */,
+				F3204CF5286B832E007A4BDC /* logo152.png in Resources */,
+				F3204D0D286CAD58007A4BDC /* Launch Screen.storyboard in Resources */,
+				F3204CFA286B832E007A4BDC /* logo167.png in Resources */,
+				F3F156BC286B6F7F00369E78 /* logo.png in Resources */,
+				F3204CF3286B832E007A4BDC /* logo87.png in Resources */,
+				F3F15697286ACFEB00369E78 /* Preview Assets.xcassets in Resources */,
+				F3F156BA286B6F6600369E78 /* google.png in Resources */,
+				F3204CFE286B84B3007A4BDC /* logo1024.png in Resources */,
+				F3204CF0286B832E007A4BDC /* logo60.png in Resources */,
+				F3204CFF286B84B3007A4BDC /* logo20.png in Resources */,
+				F3204CF8286B832E007A4BDC /* logo29.png in Resources */,
+				F3F156BE286B6F9100369E78 /* logo1.png in Resources */,
+				F3204CF2286B832E007A4BDC /* logo76.png in Resources */,
+				F3F156C2286B6FB400369E78 /* yandex.png in Resources */,
+				F3204CF7286B832E007A4BDC /* logo80.png in Resources */,
+				F3F15694286ACFEB00369E78 /* Assets.xcassets in Resources */,
+				F3204CF6286B832E007A4BDC /* logo58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F1569A286ACFF200369E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F156A4286ACFF200369E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F15688286ACF9200369E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F15692286ACF9300369E78 /* ContentView.swift in Sources */,
+				F3204D07286C13F9007A4BDC /* Messenger.swift in Sources */,
+				F3204D03286C13AB007A4BDC /* Home.swift in Sources */,
+				F3204D09286C1409007A4BDC /* Profiles.swift in Sources */,
+				F3204D05286C13BB007A4BDC /* News.swift in Sources */,
+				F3F15690286ACF9300369E78 /* KomPotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F15698286ACFF200369E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F156A1286ACFF200369E78 /* KomPotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F156A2286ACFF200369E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F156AD286ACFF200369E78 /* KomPotUITestsLaunchTests.swift in Sources */,
+				F3F156AB286ACFF200369E78 /* KomPotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3F1569E286ACFF200369E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F1568B286ACF9200369E78 /* KomPot */;
+			targetProxy = F3F1569D286ACFF200369E78 /* PBXContainerItemProxy */;
+		};
+		F3F156A8286ACFF200369E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F1568B286ACF9200369E78 /* KomPot */;
+			targetProxy = F3F156A7286ACFF200369E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3F156AE286ACFF200369E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3F156AF286ACFF200369E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F156B1286ACFF200369E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KomPot/Preview Content\"";
+				DEVELOPMENT_TEAM = KW3578N7W9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeppixel.KomPot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F156B2286ACFF200369E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KomPot/Preview Content\"";
+				DEVELOPMENT_TEAM = KW3578N7W9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeppixel.KomPot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3F156B4286ACFF200369E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW3578N7W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeppixel.KomPotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KomPot.app/KomPot";
+			};
+			name = Debug;
+		};
+		F3F156B5286ACFF200369E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW3578N7W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeppixel.KomPotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KomPot.app/KomPot";
+			};
+			name = Release;
+		};
+		F3F156B7286ACFF200369E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW3578N7W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeppixel.KomPotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KomPot;
+			};
+			name = Debug;
+		};
+		F3F156B8286ACFF200369E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KW3578N7W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keeppixel.KomPotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KomPot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F15687286ACF9100369E78 /* Build configuration list for PBXProject "KomPot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F156AE286ACFF200369E78 /* Debug */,
+				F3F156AF286ACFF200369E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F156B0286ACFF200369E78 /* Build configuration list for PBXNativeTarget "KomPot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F156B1286ACFF200369E78 /* Debug */,
+				F3F156B2286ACFF200369E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F156B3286ACFF200369E78 /* Build configuration list for PBXNativeTarget "KomPotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F156B4286ACFF200369E78 /* Debug */,
+				F3F156B5286ACFF200369E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F156B6286ACFF200369E78 /* Build configuration list for PBXNativeTarget "KomPotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F156B7286ACFF200369E78 /* Debug */,
+				F3F156B8286ACFF200369E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F15684286ACF9100369E78 /* Project object */;
+}
